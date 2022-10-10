@@ -54,3 +54,82 @@ Exp - defined by dev except for String, cannot be used call certain method to pe
 # Math
 - `This give you a random number - int randomNum = Math.random();`
 
+# If Else Shot hand
+- `String result = (10 < 18) ? "Good day." : "Good evening.";`
+
+# Switch 
+- `Used to avoid many if else statements.`
+```
+int day = 2
+switch(day) {
+  case 1:
+    System.out.println("Monday");
+    break;
+  case 2:
+    System.out.println("Tuesday");
+    break;
+  default:
+    System.out.println("Wednesday");
+    break;
+}
+```
+# While Loop
+- `There are 2 type of while loop, while loop an do while`
+```
+While loop runs the code as long as the condition is true
+
+int i = 0;
+while (i < 5) {
+  System.out.println(i);
+  i++;
+}
+```
+```
+A do while first run the code then check the condition
+  
+int i = 0;
+do {
+  System.out.println(i);
+  i++;
+}
+while (i < 5);
+```
+
+# For Loop
+```
+Mostly used when you know how many times you want to loop
+
+for (int i = 0; i <= 10; i = i + 2) {
+  System.out.println(i);
+}
+```
+
+# For-Each Loop
+```
+"For-each" loop is used exclusively to loop through elements in an array`
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (String i : cars) {
+  System.out.println(i);
+}
+```
+
+# Arrays
+- `Defined as String[] cars;`
+- `With elements - String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};`
+
+# For Loop in an Array
+```
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (int i = 0; i < cars.length; i++) {
+  System.out.println(cars[i]);
+}
+```
+
+# For Each Loop in an Array
+```
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (String i : cars) {
+  System.out.println(i);
+}
+```
