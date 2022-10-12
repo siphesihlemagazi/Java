@@ -133,3 +133,38 @@ for (String i : cars) {
   System.out.println(i);
 }
 ```
+
+## Keywords you should be able to explain and give examples for, before OOP.
+### abstract
+- `Used for both classes and methods.`
+- `An abstract class cannot be used to create objects, you can only access its methods and properties from a class that extends it`
+- `An abstract method does not have a body and it can be only be used inside an abstract class. The body of an abstract method is provided inside the class that extends the class which the method belongs to.`
+### extends
+- `Indicates that a class is inherited from another class.`
+### enum
+- `A special "class" that represents a group of constant variables.`
+### interface
+- `An abstract "class" that is used to group related methods with "empty" bodies.`
+- `On implementation of an interface, you must override all of its methods.`
+- `Interface methods are by default abstract and public.`
+- `Interface attributes are by default public, static and final.`
+- `An interface cannot contain a constructor (as it cannot be used to create objects).`
+### implement
+- `This is a keyword used like the extend keyword, it is used on an interface to access its methods.`
+### super
+- `Used to call superclass methods, and to access the superclass constructor.`
+### this
+- `Refers to the current object, like self in Python.`
+### void
+- `Specifies that a method does not have a return value.`
+### protected
+- `An access specifier indicating that a method or variable may only be accessed in the class it’s declared in (or a subclass of the class it’s declared in or other classes in the same package)`
+### public
+- `An access specifier used for classes, interfaces, methods, and variables indicating that an item is accessible throughout the application (or where the class that defines it is accessible)`
+### class
+- `A detailed description, the definition, and the template of what an object will be. But not the object itself.`
+### Object 
+- `A class becomes an object only when it is instatiated. This is also when memory is allocated.`
+
+
+Java Quiz - https://www.javatpoint.com/core-java-quiz
