@@ -1,3 +1,6 @@
+# Resoureces:
+- `Quiz - https://www.javatpoint.com/core-java-quiz`
+
 Introduction
 - `Every Java program has a class name`
 - `The class name of a program must match the filename`
@@ -165,6 +168,3 @@ for (String i : cars) {
 - `A detailed description, the definition, and the template of what an object will be. But not the object itself.`
 ### Object 
 - `A class becomes an object only when it is instatiated. This is also when memory is allocated.`
-
-
-Java Quiz - https://www.javatpoint.com/core-java-quiz
