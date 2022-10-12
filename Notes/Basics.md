@@ -134,7 +134,7 @@ for (String i : cars) {
 }
 ```
 
-## Keywords you should be able to explain and give examples for, before OOP.
+# Keywords you should be able to explain and give examples for, before OOP.
 ### abstract
 - `Used for both classes and methods.`
 - `An abstract class cannot be used to create objects, you can only access its methods and properties from a class that extends it`
